@@ -1,0 +1,162 @@
+/*Color Palette
+#590D22
+#800F2F
+#A4133C
+#C9184A
+#FF4D6D
+#FF758F
+#FF8FA3
+#FFB3C1
+#FFCCD5
+#FFF0F3
+*/
+
+html {
+    background-color: #FFF0F3;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: black;
+}
+
+.bow {
+    text-align: center;
+}
+
+a {
+    text-decoration: none; 
+    color: white; 
+}
+
+a:active {
+    color: #590D22;
+}
+
+.name {
+    color: black;
+}
+
+/*Navbar Styling*/
+.navbar ul {
+    list-style: none;
+    background-color: #FF4D6D;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 50px;
+    display: block;
+}
+
+.navbar ul li :hover, .navbar ul li :hover a {
+    background-color: #FFCCD5;
+}
+
+/*Heading styling*/
+h1 {
+    font-size: 7.5rem;
+    line-height: 0.90;
+}
+
+h2 {
+    font-size: 2.4rem;
+    background-color: #FFB3C1;
+    text-align: center;
+}
+
+/*Project Wrapper*/
+.project-wrapper img {
+    float: left;
+    margin-right: 25px;
+    width: 30%;
+    padding-bottom: 15px;
+}
+
+@media screen and (min-width:860px) {
+    .project-wrapper {
+        display: flow-root;
+    }
+    .project-wrapper img {
+        float: left;
+        margin-right: 25px;
+    }
+}
+
+/*Footer*/
+footer {
+    background: #FF4D6D;
+    color: white;
+}
+
+@media screen and (min-width: 860px) {
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 0 20px;
+    }
+}
+
+/*Form*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #FFCCD5; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+  
+/*Submit button style*/
+input[type=submit] {
+    background-color: #C9184A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #FF8FA3;
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: #FFCCD5;
+    padding: 20px;
+    text-align: left;
+}
+
+.HiBtn {
+    background-color: #C9184A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div {
+    background-color: #FFF0F3;
+    text-align: center;
+}
+
+.welcome {
+    text-align: center;
+    background-color: #FFF0F3;
+}
+
+.logo {
+    height: 8em;
+}
